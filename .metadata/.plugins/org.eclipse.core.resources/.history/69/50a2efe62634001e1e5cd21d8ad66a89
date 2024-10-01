@@ -1,0 +1,16 @@
+package com.suuper.keyword;
+
+public class ChildClass extends ParentClass {
+	
+	ChildClass(){
+		
+		System.out.println("Childclass");
+	}
+
+	public static void main(String[] args) {
+		
+		ChildClass objname = new ChildClass();
+		
+	}
+
+}
